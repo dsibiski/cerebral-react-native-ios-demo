@@ -29,5 +29,8 @@ Right now, this is working due to a series of hacks that I put together. You can
 
 If you have any trouble getting the demo running, please create an issue or find me in the #reactnative channel on freenode or [Reactiflux](https://reactiflux.slack.com/).
 
+#### The demo itself
+The `<TextInput>` fields are a little wonky since the JS bridge seems a little slow for it to be saving all state constantly through Cerebral. It's probably not the best example performance-wise, but it at least demonstrates what Cerebral can do with state, and it serves the main purpose of showing that it can be run on top of React Native.
+
 ### What's Cerebral?!
 If you haven't checked out [Cerebral](https://github.com/christianalfoni/cerebral), please do! Check out the wonderful set of videos that Christian has recorded [here](https://www.youtube.com/user/chjo2113/videos) and give it a try!
