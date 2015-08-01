@@ -1,0 +1,13 @@
+{
+  "name": "CerebralReactNativeIOSDemo",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node_modules/react-native/packager/packager.sh"
+  },
+  "dependencies": {
+    "cerebral-react-immutable-store": "dsibiski/cerebral-react-immutable-store#react-native",
+    "immutable-store": "^0.5.2",
+    "react-native": "^0.8.0"
+  }
+}
