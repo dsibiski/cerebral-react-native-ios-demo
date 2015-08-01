@@ -35,14 +35,14 @@ class Main extends React.Component {
                     ref='firstNameField'
                     placeholder='First Name'
                     style={styles.input}
-                    value={this.props.firstName}
+                    initialValue={this.props.firstName}
                     onChangeText={(text) => this.props.signals.firstNameChanged(true, {value: text}) }
                 />
                 <TextInput
                     ref='lastNameField'
                     placeholder='Last Name'
                     style={styles.input}
-                    value={this.props.lastName}
+                    initialValue={this.props.lastName}
                     onChangeText={(text) => this.props.signals.lastNameChanged({value: text}) }
                 />
                 <TouchableHighlight style={styles.button} onPress={this._onSubmit.bind(this)}>
